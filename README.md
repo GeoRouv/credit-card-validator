@@ -3,7 +3,7 @@ Takes in a 16-digit credit card number from a common credit card vendor (Visa, M
 
 ## Prerequisites
 
-Make you got python installed. I use Python3.
+Make sure you got python installed. I use Python3.
 
 ## Run
 
