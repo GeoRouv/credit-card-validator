@@ -7,4 +7,4 @@ Make sure you got python installed. I use Python3.
 
 ## Run
 
-    python3 Validator.py
+    python3 validator.py
