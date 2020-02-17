@@ -14,12 +14,13 @@ def main():
             print("The number cannot contain letters!")
             continue
             
-        break
-        
+        return val
+                      
+def checksum(tempStr):
 
-    substring = val[:-1]
-
+    substring = tempStr[:-1]
     myList = []
+    
     for elem in substring:
         myList.append(int(elem))
             
@@ -33,14 +34,15 @@ def main():
     sum = 0
     for elem in myList:
         sum = sum + elem
-               
-           
-    if ((int(val[-1:]) + sum) % 10 == 0) :
+    
+    return sum
+    
+ 
+if __name__== "__main__":
+    val = main()
+    
+    if ((int(val[-1:]) + checksum(val)) % 10 == 0) :
         print("\nCredit card number is valid ✓\n")
     else:
         print("\nCredit card number is invalid ✗\n");
- 
-if __name__== "__main__":
-  main()
-
 
